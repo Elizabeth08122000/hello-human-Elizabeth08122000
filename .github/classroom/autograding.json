@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Test 1",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "Valentin",
+      "output": "Hello, Valentin!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    },
+    {
+      "name": "Test 2",
+      "setup": "javac ./src/*.java",
+      "run": "cd ./src && java Main",
+      "input": "Ivanov1",
+      "output": "Hello, Ivanov1!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
+    }
+  ]
+}
